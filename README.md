@@ -77,7 +77,7 @@ Note: ARO requirements (TCP 80/443/9500–9700 and UDP: all) may require an exte
 - All commands are designed for PowerShell on Windows 10+.
 
 ## Donations
-- ARO address: `0xB0D1f32C900745f7b11167e69c3b569F89A67e2C`
+- BTC address: `1JTAkmyCqQri4hvE5dMc34fHusZHKQsTkx`
 
 ## Referral
 - If you are new to ARO, feel free to sign up via this referral link:
