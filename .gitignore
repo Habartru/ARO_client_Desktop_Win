@@ -1,0 +1,33 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+
+# Node/npm (just in case)
+node_modules/
+
+# Python (just in case)
+__pycache__/
+*.pyc
+
+# PowerShell cache
+*.ps1xml
+
+# VM artifacts
+vm/
+logs/
+*.vhdx
+*.vdi
+*.vmdk
+*.iso
+*.log
+
+# Archives
+*.zip
+*.7z
+*.tar
+*.gz
+
+# IDE
+.vscode/
+.idea/
