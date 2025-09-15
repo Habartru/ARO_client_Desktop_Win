@@ -1,6 +1,21 @@
 <div align="center">
 
-![ARO Client Desktop Launcher](https://raw.githubusercontent.com/Habartru/ARO_client_Desktop_Win/main/assets/banner.svg)
+<h1>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=ARO+CLIENT+DESKTOP+LAUNCHER;Windows+One-Click+Deployment;Auto-Detection+%E2%9A%A1+Hyper-V+%E2%9A%A1+VirtualBox" alt="Typing SVG" />
+</h1>
+
+<p>
+  <img src="https://img.shields.io/badge/Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Windows"/>
+  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell"/>
+  <img src="https://img.shields.io/badge/Hyper--V-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" alt="Hyper-V"/>
+  <img src="https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white" alt="VirtualBox"/>
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/version-v0.1.0-blue?style=for-the-badge" alt="Version"/>
+  <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge" alt="License"/>
+  <img src="https://img.shields.io/badge/status-active-success?style=for-the-badge" alt="Status"/>
+</p>
 
 </div>
 
