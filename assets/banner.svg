@@ -1,0 +1,99 @@
+<svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#16213e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f3460;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#5b73ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00d4ff;stop-opacity:1" />
+    </linearGradient>
+    
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="200" fill="url(#bgGradient)" rx="15"/>
+  
+  <!-- Animated particles -->
+  <g opacity="0.6">
+    <circle r="2" fill="#00d4ff">
+      <animateMotion dur="15s" repeatCount="indefinite">
+        <path d="M50,50 Q400,30 750,70 Q400,110 50,90 Z"/>
+      </animateMotion>
+      <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    
+    <circle r="1.5" fill="#5b73ff">
+      <animateMotion dur="12s" repeatCount="indefinite">
+        <path d="M100,120 Q450,140 700,100 Q350,60 100,80 Z"/>
+      </animateMotion>
+      <animate attributeName="opacity" values="0;1;0" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    
+    <circle r="1" fill="#ffffff">
+      <animateMotion dur="20s" repeatCount="indefinite">
+        <path d="M200,160 Q500,40 600,130 Q300,170 200,160 Z"/>
+      </animateMotion>
+      <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Main title -->
+  <text x="400" y="80" font-family="Arial, sans-serif" font-size="36" font-weight="bold" 
+        text-anchor="middle" fill="url(#textGradient)" filter="url(#glow)">
+    ARO Client Desktop Launcher
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite"/>
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="110" font-family="Arial, sans-serif" font-size="16" 
+        text-anchor="middle" fill="#ffffff" opacity="0.9">
+    One-Click Windows Deployment • Auto-Detection • Hyper-V & VirtualBox
+  </text>
+  
+  <!-- Status badges -->
+  <g transform="translate(250, 130)">
+    <rect width="80" height="25" rx="12" fill="#00d4ff" opacity="0.2"/>
+    <text x="40" y="17" font-family="Arial, sans-serif" font-size="12" 
+          text-anchor="middle" fill="#00d4ff" font-weight="bold">Windows</text>
+  </g>
+  
+  <g transform="translate(340, 130)">
+    <rect width="70" height="25" rx="12" fill="#5b73ff" opacity="0.2"/>
+    <text x="35" y="17" font-family="Arial, sans-serif" font-size="12" 
+          text-anchor="middle" fill="#5b73ff" font-weight="bold">PowerShell</text>
+  </g>
+  
+  <g transform="translate(420, 130)">
+    <rect width="60" height="25" rx="12" fill="#00ff88" opacity="0.2"/>
+    <text x="30" y="17" font-family="Arial, sans-serif" font-size="12" 
+          text-anchor="middle" fill="#00ff88" font-weight="bold">Auto</text>
+  </g>
+  
+  <g transform="translate(490, 130)">
+    <rect width="60" height="25" rx="12" fill="#ff6b6b" opacity="0.2"/>
+    <text x="30" y="17" font-family="Arial, sans-serif" font-size="12" 
+          text-anchor="middle" fill="#ff6b6b" font-weight="bold">v0.1.0</text>
+  </g>
+  
+  <!-- Decorative elements -->
+  <g opacity="0.3">
+    <path d="M50,50 L100,30 L150,70 L100,90 Z" fill="none" stroke="#00d4ff" stroke-width="1">
+      <animate attributeName="stroke-opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite"/>
+    </path>
+    
+    <path d="M650,40 L700,60 L750,40 L700,80 Z" fill="none" stroke="#5b73ff" stroke-width="1">
+      <animate attributeName="stroke-opacity" values="0.3;0.8;0.3" dur="4s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>

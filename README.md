@@ -1,3 +1,9 @@
+<div align="center">
+  <img src="assets/banner.svg" alt="ARO Client Desktop Launcher" width="100%"/>
+</div>
+
+<br/>
+
 # ARO Client: Windows One-Click Launcher
 
 This project provides a one-click way to deploy and run the ARO Client (ISO image) in a virtual machine on Windows 10/11.
