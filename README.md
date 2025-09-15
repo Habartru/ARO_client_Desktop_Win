@@ -1,8 +1,8 @@
 <div align="center">
-  <img src="assets/banner.svg" alt="ARO Client Desktop Launcher" width="100%"/>
-</div>
 
-<br/>
+![ARO Client Desktop Launcher](https://raw.githubusercontent.com/Habartru/ARO_client_Desktop_Win/main/assets/banner.svg)
+
+</div>
 
 # ARO Client: Windows One-Click Launcher
 
